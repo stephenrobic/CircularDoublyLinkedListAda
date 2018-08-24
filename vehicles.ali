@@ -1,0 +1,105 @@
+V "GNAT Lib v2017"
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U vehicles%b		vehicles.adb		405958c6 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.concat_6%s	s-conca6.adb		s-conca6.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+U vehicles%s		vehicles.ads		d127fa96 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20170516105954 f15a5ed1 ada.unchecked_deallocation%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D system.ads		20170516105954 32a08138 system%s
+D s-conca4.ads		20170516105954 7e642b20 system.concat_4%s
+D s-conca6.ads		20170516105948 d2c72db2 system.concat_6%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-imgint.ads		20170516105950 02dbe0c2 system.img_int%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-secsta.ads		20170516105954 9751b57e system.secondary_stack%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20170516105954 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20170516105948 aedef97e system.stream_attributes%s
+D s-string.ads		20170516105954 8fe54fb7 system.strings%s
+D s-ststop.ads		20170516105950 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+D vehicles.ads		20180405033314 e94a0f42 vehicles%s
+D vehicles.adb		20180405035722 6024fc81 vehicles%b
+X 1 ada.ads
+16K9*Ada 20e8 31|2r6 3r5 32|2r6 3r5 4r6
+X 6 a-textio.ads
+49K13*Text_IO 471e16 31|2w10 3r9 32|2w10 3r9
+242U14*Put 32|15s7 20s7
+263U14*Put_Line 32|10s7
+X 8 a-uncdea.ads
+20u15*Unchecked_Deallocation 32|4w10
+X 31 vehicles.ads
+5K9*Vehicles 26l5 26e13 32|6b14 38l5 38t13
+7R9*Vehicle 7e38 8p14 8r27 9p13 9r38 9r54 11r20 16r61 18r22 24r63 32|8r27
+. 23r38 23r54 28r61 33r63
+8U14*Print 8>20 32|8b14 11l8 11t13
+8r20 V{7R9} 32|8b20
+9V13*Same_Manufacturer{boolean} 9>31 9>47 32|23b13 26t7
+9r31 V{7R9} 32|23b31
+9c47 W<7R9> 32|23b47
+11R9*Car<7R9> 14e14 15P25 15r38 16P24 16r49 32|13r38 28r49 30r19 30r41
+12i7*Doors{integer} 32|15r28
+13a7*Manu{string} 32|15r58 30r34 30r48
+15U25*Print<8p14> 15>31 32|13b25 16l8 16t13
+15r31 C{11R9} 32|13b31 15r26 15r56
+16V24*Same_Manufacturer{boolean}<9p13> 16>42 16>54 32|28b24 31t7
+16r42 C{11R9} 32|28b42 30r32
+16c54 W<7R9> 32|28b54 30r14 30r45
+18R9*Plane<7R9> 22e14 23P25 23r38 24P24 24r49 32|18r38 33r49 35r19 35r43
+19i7*Doors{integer} 32|20r31
+20i7*Engines{integer} 32|20r62
+21a7*Manu{string} 32|20r96 35r36 35r52
+23U25*Print<8p14> 23>31 32|18b25 21l8 21t13
+23r31 P{18R9} 32|18b31 20r29 20r60 20r94
+24V24*Same_Manufacturer{boolean}<9p13> 24>42 24>56 32|33b24 36t7
+24r42 P{18R9} 32|33b42 35r34
+24c56 W<7R9> 32|33b56 35r14 35r49
+
